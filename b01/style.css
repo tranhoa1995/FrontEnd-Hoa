@@ -6,6 +6,7 @@
 
 .hinhnen{
     object-fit: cover;
+    border: 5px solid black
 }
 .hinhdaidien{
     object-fit: cover;
@@ -20,15 +21,15 @@
 }
 .avatar{
     position:absolute;
-left: 439px;
-bottom: -40px;
+left: 538px;
+bottom: 55px;
 }
 .ten{
     margin-top: 30px;
-    margin-left: 435px;
+    margin-left: 530px;
 }
 .thongtin{
-    margin-top: 3px;
-    margin-left: 435px;
+    margin-top: -2px;
+    margin-left: 530px;
     color: royalblue ;
 }
