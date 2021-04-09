@@ -1,0 +1,23 @@
+.list-icon-block{
+    width: 800px;
+    border: 5px solid green;
+    height: 325px;
+}
+.icon-block-item{
+    float: left;
+    margin: 5px;
+    border: 1px solid;
+    width: 23%;
+}
+.icon-block__title{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 1000;
+}
+.icon-block__circle{
+    width: 55px  ;
+    height: 55px;
+    border-radius: 100px;
+    margin: 0 auto;
+    box-shadow: 2px 5px 6px;
+}
