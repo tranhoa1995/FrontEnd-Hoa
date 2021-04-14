@@ -29,8 +29,6 @@ img{
     margin-bottom: 20px;
     font-family: 'Zen Dots', cursive;
 }
-
-
 .brand-detail{
         font-size: 14px;
         color: rgba(red, green, blue, alpha);
@@ -74,10 +72,10 @@ img{
     float: right;
     position: relative;
 }
-
-
- 
-
+.Container{
+    width: auto;
+    margin: 0 auto;
+}
 .banner-left-item-a{
     margin-top: 180px;
     width: 90%;
@@ -94,7 +92,6 @@ img{
     top: -35px;
     right: -20px;
 }
-
 .banner-right-img-a{
     width: 70%;
     margin-top: 180px;
