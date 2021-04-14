@@ -1,0 +1,44 @@
+.box{
+    width: 1000px;
+    border: 5px solid #f3f3f3;
+    height: 400px;
+    position: relative;
+}
+.blockdemo{
+    float: left;
+    margin: 5px;
+    border: 1px solid ;
+    width: 33%;
+    height: 30%;
+    text-align: center;
+    box-shadow:2px 5px 6px;
+}
+.icon{
+    width: 160px;
+    height: 55px;
+    text-align: center;
+    margin: 10px auto;
+}
+.blockdemo1{
+    margin: 5px;
+    border: 1px solid red;
+    width: 28%;
+    height: 34%;
+    top: 210px;
+    position: absolute;
+    left: 700px;
+}
+button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    left: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 30px;
+}
+  
