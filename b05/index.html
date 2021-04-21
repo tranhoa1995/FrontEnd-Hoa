@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xây dựng Grid System</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="grid-system.css"> -->
+  <link rel="stylesheet" href="grid-system-2.css">
+  <link rel="stylesheet" href="service-block.css">
+</head>
+<!-- S M L XL XXL -->
+<!-- 
+  Một số mốc quan trọng
+  768 
+  > 768 -> máy tính bảng
+  < 768 -> điện thoại
+    Iphone5: 320px 
+    Iphone20: 767px
+  S: 0 -> 567px -> .tcl-col-? || >= 0
+  M: 568px -> 767px -> .tcl-col-m-? || >= 568px
+  // May tinh bang
+  L: 768px -> 991px -> .tcl-col-l-? || >= 768px
+  XL: 992px -> 1200px || >= 992px
+  // Desktop
+  XXL: 1200px -> 1366px -> .tcl-col-xl-? || >= 1200px
+  XXXL: 1400px -> 1920px -> .tcl-col-xxxl-? >= 1400px
+  Grid System tạo nhiiều size cho col (Tính theo màn hình) 
+  x đại diện cho số 1 -> 12
+  .tcl-col-x -> Nhóm class tác dụng trong khoảng màn hình nào?? Screen pixel >= 0px
+    .tcl-col-1, .tcl-col-2, .tcl-col-3, ..., .tcl-col-12:
+  .tcl-col-s-x -> Nhóm class tác dụng trong khoảng màn hình: 
+    .tcl-col-s-1, .tcl-col-s-2, .tcl-col-s-3, .tcl-col-s-4
+  <= 600px
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  Áp dụng quy tắc lập trình Mobile First
+  >= 600px
+  @media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+-->
+<body>
+  <div class="container">
+    <div class="tcl-row">
+      <div class="tcl-col-9">
+        <div class="main-content">
+          <div class="tcl-row no-gutters">
+            <div class="tcl-col-3">
+              <div class="product">
+                <div class="product-image">
+                  <img src="https://www.bep36.com/wp-content/uploads/2019/11/26/tuu-nau-com-24-gas.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tcl-col-3">
+              <div class="product">
+                <div class="product-image">
+                  <img src="https://www.bep36.com/wp-content/uploads/2019/11/26/tuu-nau-com-24-gas.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tcl-col-3">
+              <div class="product">
+                <div class="product-image">
+                  <img src="https://www.bep36.com/wp-content/uploads/2019/11/26/tuu-nau-com-24-gas.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tcl-col-3">
+              <div class="product">
+                <div class="product-image">
+                  <img src="https://www.bep36.com/wp-content/uploads/2019/11/26/tuu-nau-com-24-gas.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-3">
+        <div class="sidebar">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, perspiciatis, fugiat quasi, debitis ab accusantium quas quis rem ipsum rerum vero perferendis. Ratione, molestias! Rerum, nulla. Dolores cum fuga inventore!</p>
+        </div>
+      </div>
+    </div>
+    <div class="tcl-row">
+      <div class="tcl-col-3">
+        <div class="main-content">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, ipsum iste? Animi labore fugit tempora eaque? Impedit vel, amet accusantium placeat suscipit accusamus optio libero cupiditate illum nostrum est inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ab quasi. Nobis ipsam quasi eveniet dolores? Blanditiis similique tempore, provident quibusdam ea est earum tempora, modi enim id cum! Eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos unde excepturi blanditiis, laboriosam quaerat tenetur ut, explicabo ullam saepe esse praesentium quis qui repellat nisi id, rerum corporis alias ducimus.</p>
+        </div>
+      </div>
+      <div class="tcl-col-9">
+        <div class="sidebar">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, perspiciatis, fugiat quasi, debitis ab accusantium quas quis rem ipsum rerum vero perferendis. Ratione, molestias! Rerum, nulla. Dolores cum fuga inventore!</p>
+        </div>
+      </div>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, ipsum iste? Animi labore fugit tempora eaque? Impedit vel, amet accusantium placeat suscipit accusamus optio libero cupiditate illum nostrum est inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ab quasi. Nobis ipsam quasi eveniet dolores? Blanditiis similique tempore, provident quibusdam ea est earum tempora, modi enim id cum! Eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos unde excepturi blanditiis, laboriosam quaerat tenetur ut, explicabo ullam saepe esse praesentium quis qui repellat nisi id, rerum corporis alias ducimus.</p>
+    <!-- Xây dựng nhiều dạng col khác nhau -->
+    <!-- |----|----|----| -->
+    <div class="tcl-row">
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-xl-4">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-xl-4">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-xl-4">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-xl-4">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-xl-4">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-xl-4">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacing"></div>
+    <div class="tcl-row">
+      <div class="tcl-col-12 tcl-col-xl-6">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-12 tcl-col-xl-6">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-12 tcl-col-xl-6">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-12 tcl-col-xl-6">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacing"></div>
+    <div class="tcl-row">
+      <div class="tcl-col-12 tcl-col-l-6 tcl-col-xxl-4 tcl-col-xxxl-3">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-12 tcl-col-l-6 tcl-col-xxl-4 tcl-col-xxxl-3">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-12 tcl-col-l-6 tcl-col-xxl-4 tcl-col-xxxl-3">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tcl-col-12 tcl-col-l-6 tcl-col-xxl-4 tcl-col-xxxl-3">
+        <div class="service-block-item">
+          <div class="service-block__image">
+            <img src="./images/service-block-1.png" alt="">
+          </div>
+          <div class="service-block__content">
+            <h3 class="service-block__title">Unlimited Color</h3>
+            <p class="service-block__desc">With color picker in admin panel, you can make your site more dynamic. You
+              can choose a color from popup with one click or paste your code into field.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacing"></div>
+    <div class="tcl-row">
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-l-4 tcl-col-xl-3 tcl-col-xxl-2_4 tcl-col-xxxl-2"><div class="noithat"></div></div>
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-l-4 tcl-col-xl-3 tcl-col-xxl-2_4 tcl-col-xxxl-2"><div class="noithat"></div></div>
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-l-4 tcl-col-xl-3 tcl-col-xxl-2_4 tcl-col-xxxl-2"><div class="noithat"></div></div>
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-l-4 tcl-col-xl-3 tcl-col-xxl-2_4 tcl-col-xxxl-2"><div class="noithat"></div></div>
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-l-4 tcl-col-xl-3 tcl-col-xxl-2_4 tcl-col-xxxl-2"><div class="noithat"></div></div>
+      <div class="tcl-col-12 tcl-col-m-6 tcl-col-l-4 tcl-col-xl-3 tcl-col-xxl-2_4 tcl-col-xxxl-2"><div class="noithat"></div></div>
+    </div>
+    <div class="tcl-row no-gutters">
+      <div class="tcl-col-4">
+        <div class="tcl-row">
+          <div class="tcl-col-6">
+            <div class="tcl-row">
+              <div class="tcl-col-4"><div class="box box-1"></div></div>
+              <div class="tcl-col-4"><div class="box box-2"></div></div>
+              <div class="tcl-col-4"><div class="box box-3"></div></div>
+            </div>
+          </div>
+          <div class="tcl-col-6"><div class="box box-6"></div></div>
+        </div>
+      </div>
+      <div class="tcl-col-4"><div class="box box-2"></div></div>
+      <div class="tcl-col-4"><div class="box box-3"></div></div>
+      <div class="tcl-col-4"><div class="box box-4"></div></div>
+      <div class="tcl-col-4"><div class="box box-5"></div></div>
+      <div class="tcl-col-4"><div class="box box-6"></div></div>
+    </div>
+    <div class="spacing"></div>
+    <div class="tcl-row no-gutters">
+      <div class="tcl-col-4"><div class="box box-1"></div></div>
+      <div class="tcl-col-4"><div class="box box-2"></div></div>
+      <div class="tcl-col-4"><div class="box box-3"></div></div>
+      <div class="tcl-col-4"><div class="box box-4"></div></div>
+      <div class="tcl-col-4"><div class="box box-5"></div></div>
+      <div class="tcl-col-4"><div class="box box-6"></div></div>
+    </div>
+  </div>
+</body>
+
+</html>
