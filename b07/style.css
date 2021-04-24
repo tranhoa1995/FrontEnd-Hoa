@@ -1,11 +1,15 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
 img{
     width: 100%;
 }
 /* header */
-.header3-Container{
-    width: 100%;
-    padding-bottom: 500px;
+.header{
+    width: 1170px;
+    height: 500px;
     background: #000044; 
     display: block;
 }
@@ -112,90 +116,11 @@ img{
 }
 
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.heard{
-    width: 100%;
-    height: 100vh;
-    border: 1px solid git  ;
-    position: relative;
-
-}
-.conternie{
-    font-size: 150px;
-    font-family: 'Bebas Neue', cursive;
-    opacity: 0.1;
-    position: absolute;   
-    left: 23%;
-    top: -8%;
-}
-.title{
-    width: auto;
-    background-color: #FAEBD7;
-    height: 89px;
-}
-.list-block{      
-    font-size: 50px;
-    font-family: monospace;
-    text-align: center;
-    margin-top: 100px;
-    
-}
-p{
- text-align: justify;
- margin-top: 30px;
- /* text-align: center; */
-}
-.namngang{
-    width: 82px;
-    height: 2px;
-    border: 1px solid black;
-    margin-left: 541px;
-    margin-top: 29px;
-}
-.icon-block-iteam{ 
-    float: left;
-   
-    border: 1px solid;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-
-.icon-block__circle{
-    float: left;   
-    width: 25%;
-    /* height: 275px; */
-    padding: 10px;
-}
-img{
-width: 100%;
-}
-.icon-block__circle h2{   
-    font-size: 7px;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-}
-.menu {
-    text-align: center;
-    background-color: #FAEBD7;
-    width: auto;
-    height: 90px;
-    padding: 10px;
-}
-.menu a {
-    text-decoration: none;
-    color: black; 
-    padding: 20px;
-    line-height: 50px;
-}
-*{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-.heard1{
+.heard{
     max-width: 700px;
     height: 100vh;
     /* border: 1px solid red ; */
@@ -207,8 +132,8 @@ width: 100%;
     font-family: 'Bebas Neue', cursive;
     position: absolute;
     opacity: 0.1;
-    top: 25%;
-    left: 10%;
+    top: -20%;
+    left: 3%;
     padding: 30px;
     letter-spacing: 5px;
 }
@@ -227,8 +152,7 @@ width: 100%;
 }
 p{
     text-align: center;
-    margin-left: 0px;
-    margin-top: 6px;
+    margin-left: 15px;
 }
 .icon-block-item{
     float: left; 
@@ -264,55 +188,4 @@ img{
 h1{
     font-size: 15px;
     margin-left: 10px;
-}
-.heard2{
-    width: 1170px;
-    height: auto;
-    margin-top: 100px;
-    
-}
-.title{
-    font-size: 150px;
-    font-family: 'Courier New', Courier, monospace;
-    opacity: 0.2;
-    position: relative;
-    left: 23%;
-    top: 5%;
-}
-.list-nen2{
-    font-size: 34px;
-    font-family: monospace;
-    text-align: center;
-    margin-top: 22px;
-}
-.icon-block-river{
-    position: relative;
-    margin-top: 60px;
-    left: 12%;
-}
-.icon-block-200{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    font-size: 50px;
-    background-color: white;
-    box-shadow: 0px 0px 11px -1px blue;
-    padding: 15px;
-    opacity: 0.4;
-}
-.list-nen2 p{
-    font-size: 15px;
-    margin-top: 100px;
-    padding-left: 300px;
-    
-}
-.head{
-    border: 1px solid black;
-    border-radius: 20px;
-    padding: 10px; 
-    color: white;
-    font-size: 10px;
-    background-color: transparent;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: center;
 }
