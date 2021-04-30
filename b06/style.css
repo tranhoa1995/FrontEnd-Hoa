@@ -6,7 +6,7 @@ img{
 .header3-Container{
     width: 100%;
     padding-bottom: 500px;
-    background: #000044; 
+    background: #1b1e30; 
     display: block;
 }
 
@@ -14,6 +14,10 @@ img{
 .brand{
     text-align: center;
     color: white;
+}
+.brand-welcome h1{
+    font-size: 66px;
+    
 }
 .brand-name{
     font-size: 20px;
@@ -23,7 +27,8 @@ img{
     letter-spacing: 2px;
     margin-top: 30px;
     margin-bottom: 20px;
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 .brand-detail{
         font-size: 14px;
@@ -38,18 +43,18 @@ img{
     border-radius: 20px;
     padding: 10px; 
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     background-color: transparent;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .header-button-right{
     border: 1px solid black;
     border-radius: 20px;
     padding: 10px; 
     color: black;
-    font-size: 10px;
+    font-size: 12px;
     background-color: white;
-    font-family: 'Open Sans Condensed', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 /* Brand end */
 
@@ -124,12 +129,13 @@ img{
 
 }
 .conternie{
-    font-size: 150px;
-    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    font-family: 'Montserrat', sans-serif;
     opacity: 0.1;
     position: absolute;   
-    left: 23%;
+    left: 7%;
     top: -8%;
+    letter-spacing: 15px;
 }
 .title{
     width: auto;
@@ -137,11 +143,11 @@ img{
     height: 89px;
 }
 .list-block{      
-    font-size: 50px;
+    font-size: 36px;
     font-family: monospace;
     text-align: center;
     margin-top: 100px;
-    
+    margin-left: 35px;
 }
 p{
  text-align: justify;
@@ -174,7 +180,7 @@ width: 100%;
 }
 .icon-block__circle h2{   
     font-size: 7px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 .menu {
@@ -204,7 +210,7 @@ width: 100%;
 }
 .list-title{
     font-size: 150px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     opacity: 0.1;
     top: 25%;
@@ -236,16 +242,14 @@ p{
     width: 50%;
     /* margin: 15px; */
     padding: 15px;
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
 .icon-block{
     float: left;
     width: 30%;
     background-color: white;
     padding: 10px;
-    box-shadow: 3px 2px 3px 0px;
-
+    box-shadow: 1px 0px 0px 2px #f8f8ff;
 }
 .icon-block-text{
     float: left;
@@ -272,12 +276,13 @@ h1{
     
 }
 .title{
-    font-size: 150px;
-    font-family: 'Courier New', Courier, monospace;
-    opacity: 0.2;
+    font-size: 120px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.1;
     position: relative;
     left: 23%;
     top: 5%;
+    font-weight: bold;
 }
 .list-nen2{
     font-size: 34px;
@@ -303,8 +308,10 @@ h1{
 .list-nen2 p{
     font-size: 15px;
     margin-top: 100px;
-    padding-left: 300px;
-    
+    padding-left: 300px;   
+}
+p{
+    margin-left: 15px;
 }
 .head{
     border: 1px solid black;
@@ -313,6 +320,9 @@ h1{
     color: white;
     font-size: 10px;
     background-color: transparent;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 60%;
+    background-color: black;
+    margin-top: 40px;
+  
 }
