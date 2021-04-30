@@ -9,12 +9,13 @@
     border: 1px solid;
     width: 23%;
 }
-  
+  /* chu duoi  */
 .icon-block__title{
     text-align: center;
     font-size: 10px;
     font-weight: 1000;
 }
+/* hinh */
 .icon-block__circle{
     width: 55px  ;
     height: 55px;
