@@ -327,8 +327,8 @@ p{
 }
 /* bai5 */
 .heard5{
-    width: 1170px;
-    height: 800px;
+    width: 800px;
+    /* height: auto; */
 }
 .brand-river{
     float: left;
@@ -366,4 +366,36 @@ p{
     font-size: 36px;
     margin-left: 45%;
     margin-top: -5%;
+}
+/* bài 6 */
+.black{
+    width: 500px;
+    /* height: 800px; */
+    /* background-color: #141724; */
+    position: relative;
+}
+.logo{
+    font-size: 36px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    /* position: relative; */
+}
+.green{
+    font-size: 15px;
+    font-family: 'PT Serif', serif;
+    margin-top: 65px;
+}
+.red{
+    margin-top: 75px;
+}
+.layout{
+    /* float: left; */
+    width: 700px;
+    height: 430px;
+    left: 147%;
+    top: 63%;
+    position: absolute;
+}
+.red-h2{
+    text-align: justify;
 }
