@@ -372,14 +372,14 @@ p{
 }
 .aqua{
     /* position: relative; */
-    /* background-color: darkblue; */
+    background-color: #141724;
     display: inline-block;
     width: 100%;
 }
 /* bài 6 */
 .black{
     width: 50%;
-    /* height: 800px; */
+    height: 500px;
     /* background-color: #141724; */
     /* position: relative; */
     float: left;
@@ -389,6 +389,7 @@ p{
     font-family:'Montserrat', sans-serif;
     font-weight: 600;
     /* position: relative; */
+    color: white;
 }
 .logo p{
     width: 54%;
@@ -397,9 +398,12 @@ p{
     font-size: 12px;
     font-family: 'PT Serif', serif;
     margin-top: 65px;
+    margin-left: -150px;
+    color:#888fa3;
 }
 .red{
     margin-top: 75px;
+    color: #888fa3;
 }
 .red h2{
     margin-left: 89px;
@@ -408,14 +412,13 @@ p{
     width: 50%;
     position: relative;
      float: left;
-
 }
 .layout{
     /* float: left; */
     width: 700px;
     height: 430px;
-    position: absolute;
-    top: -48px;
+    /* position: absolute; */
+    /* top: -48px; */
     right: 0;
 }
 .red{
@@ -423,20 +426,6 @@ p{
     line-height: 1.2;
     font-size: 12px;
 }
-.head15{
-    border: 1px solid black;
-    border-radius: 20px;
-    padding: 10px; 
-    color: white;
-    font-size: 10px;
-    background-color: transparent;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 10%;
-    background-color: black;
-    margin-top: 40px;
-}
-
-
 /* bai 8 */
 .out{
     width: 100%;
@@ -445,7 +434,6 @@ p{
     width: 50%;
     float: left;
 }
-
 .ghost{
     font-size: 36px;
     font-family:'Montserrat', sans-serif;
@@ -453,24 +441,30 @@ p{
     /* position: relative; */
     margin-top: 113px;
 }
+.nen1{
+    margin-left: 40%;
+}
 .gray{
     font-size: 12px;
     font-family: 'PT Serif', serif;
     margin-top: 65px;
+    color: #747474;
 }
 .pink{
     margin-top: 50px;
     line-height: 40px;
-}
+    color: #747474;
+    font-size: 12px;
+}  
  .hinh2{
      width: 50%;
-     position: relative;
+     /* position: relative; */
      float: left;
  }
  .layout2{
     width: 700px;
     height: 430px;
-    position: absolute;
+    /* position: absolute; */
     top: 100px;
     right: 0;
  } 
@@ -482,23 +476,28 @@ p{
     font-size: 10px;
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
-    margin-left: -45%;
+    margin-left: 50%;
     background-color: black;
-    margin-top: 25%;
+    margin-top: 5%;
 
 }
+
+
+ /* bai 9 */
 .Hello{
     width: 100%;
+    /* background-color: indigo; */
+    display: inline-block;
 }
 .hinh4{
     width: 50%;
     float: left;
-    position: relative;
+    /* position: relative; */
 }
 .layout3{
     width: 700px;
     height: 430px;
-    position: absolute;
+    /* position: absolute; */
     top: 100px;
     right: 22%;
 }
@@ -510,12 +509,118 @@ p{
     font-size: 36px;
     font-family:'Montserrat', sans-serif;
     font-weight: 600;
-    /* position: relative; */
     margin-top: 113px;
+    
+}
+.blockhail{
+    margin-top: 40px;
+    font-family: 'PT Serif', serif;
+    color: #747474;   
 }
 .pink2{
     font-size: 12px;
     font-family: 'PT Serif', serif;
-    line-height: 1.5;
+    line-height: 2.5;
     margin-left: 2%;
+    margin-top: 40px;
+    color: #747474;
+}
+.head17{
+border: 1px solid black;
+border-radius: 20px;
+padding: 10px; 
+color: white;
+font-size: 10px;
+background-color: transparent;
+font-family: 'Montserrat', sans-serif;
+/* margin-left: 25%; */
+background-color: black;
+margin-top: 4%;
+
+}
+
+.ban{
+    margin-left: -65px;
+}
+/* bai 13 */
+.titan{
+    width: 100%;
+    height: 500px;
+   background-color: #f6f6f8;
+   margin-top: 10%;
+   display: inline-block;
+}
+.nen5{
+    width: 30%;
+    height: 30%;
+    position: relative;
+}
+.hinh3{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 90%;
+
+}
+.nen4{
+    width: 70%;
+    height: 70%; 
+    float: right;
+}
+.chu4{
+    font-size: 28px;
+    font-family: 'PT Serif', serif;
+}
+.chu5{
+    margin-right: 40%;
+    margin-top: 10%;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* bai11 */
+.titan2{
+    width: 1920px;
+    background-color: #141724;
+    height: 730px;
+    display: inline-block;
+}
+.nen{
+    width: 50%;
+    float: left;
+}
+.hinh7{
+    width: 890px;
+    height: 440px;
+    margin-top: -45px;
+}
+.nen7{
+    width: 50%;
+    float: right;
+  
+}
+.chu7{
+    font-size: 24px;
+    color: #d3d3d4;
+    margin-top: -25%;
+    margin-right: 60%;
+    font-family: 'PT Serif', serif;
+}
+.chu8{
+    font-size: 48px;
+    font-family: 'PT Serif', serif;
+    font-weight: 800;
+    color: #ffffff;
+}
+.head18{
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 30px;
+    color: #333333;
+    font-size: 60px;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin-top: 4%;
+    
 }
