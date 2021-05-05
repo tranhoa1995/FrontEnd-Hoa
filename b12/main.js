@@ -32,7 +32,7 @@ Tính Tổng S = 1 + 2 + 3 + .. +
         BEGIN
         write('n=');read(n)
         S=0;
-        for i:=1 to n do S : = S + 1/i;
+        for i : =1 to n do S : = S + 1/i;
         Writeln(n);
         Readln;
         END
