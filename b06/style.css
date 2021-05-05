@@ -580,9 +580,9 @@ margin-top: 4%;
 }
 /* bai11 */
 .titan2{
-    width: 1920px;
+    width: 100%;
     background-color: #141724;
-    height: 730px;
+    height: 500px;
     display: inline-block;
 }
 .nen{
