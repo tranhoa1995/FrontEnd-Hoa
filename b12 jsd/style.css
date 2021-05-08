@@ -1,0 +1,16 @@
+bodt . html {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding:  100px 0;
+}
+[data-toggle='modal'] {
+    padding: 15px 25px;
+    border: 2px solid white;
+    color: #333;
+    text-transform: uppercase;
+
+}
