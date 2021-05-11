@@ -12,5 +12,12 @@ bodt . html {
     border: 2px solid white;
     color: #333;
     text-transform: uppercase;
+}
 
+
+[data-title] {
+    color: red;
+}
+p {
+    padding: 30px;
 }
