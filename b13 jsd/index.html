@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/style-1.css">
+    <link id="color-skin"rel="stylesheet" href="css/style-1.css">
+
+          <!-- có 3 cách import css cho một phần tử
+          1. Css Inline <div style="color: red" > <div> 
+          2. Internal Css <style></style>
+          3. Extenal CSS -> Thường dùng -> File riêng ở bên ngoài
+        -->
+
+
+
 </head>
 <body>
-    <div class="container">
+    <div class="container abc">
         <!-- cấu trúc dom trong html  -->
         <h1>Javascript DOM</h1>
         <div id="demo">Id demo</div>
@@ -24,11 +33,20 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea tempore, voluptatem eos molestiae, praesentium error reiciendis eligendi excepturi maiores autem neque consectetur odio. Earum, dignissimos officiis dicta vel illum facere?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea tempore, voluptatem eos molestiae, praesentium error reiciendis eligendi excepturi maiores autem neque consectetur odio. Earum, dignissimos officiis dicta vel illum facere?</p>
         
-        <img class="class-demo"src="" alt="" width="300">
+        <img class="class-demo"src="" alt="" >  <br>
 
-        <button onclick="changeStyleColor('/style-1.css')" style="background-color:#FF0000; color:#fff; border-color:#FF0000 "data-toggle="modal"> Click me </button>
-        <button onclick="changeStyleColor('/style-2.css')" style="background-color:#00CC00; color:#fff border-color: #00CC00" data-toggle="modal"> Click me </button>
+        <button onclick="changeStyleColor('css/style-1.css')" style="background-color:#FF0000; color:#fff; border-color:#FF0000 "data-toggle="modal"> Click me </button>
+        <button onclick="changeStyleColor('css/style-2.css')" style="background-color:#00CC00; color:#fff border-color: #00CC00" data-toggle="modal"> Click me </button>
+        <button onclick="changeStyleColor('css/style-3.css')" style="background-color:#5d3fa3; color:#fff border-color: #5d3fa3" data-toggle="modal"> Click me </button> <br>
      
+        <button onclick="changeStyleContainer('wide')" style="background-color:#FF0000; color:#fff border-color: #FF0000" data-toggle="modal">Wide</button>
+
+        <button onclick="changeStyleContainer('box')" style="background-color:#00CC00; color:#fff border-color: #FF0000" data-toggle="modal">Box</button>  <br>
+
+           <button onclick="changeBg('images/boxed-bg-img-02.jpg');" data-toggle="modal">Hinh 1 </button>
+           <button onclick="changeBg('images/boxed-bg-img-03.jpg');"data-toggle="modal">Hinh 2</button>
+           <button onclick="changeBg('')"data-toggle="modal">Không hình</button>
+
     </div>
 </body>
 <!-- <script src="main.js"></script> -->
