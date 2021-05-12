@@ -1,0 +1,1 @@
+onclick="document.getElementByid"('demo').innerHTML = 'HELLO JavaScript'"> Click me! <

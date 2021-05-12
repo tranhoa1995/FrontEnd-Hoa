@@ -112,11 +112,19 @@ chuyển doori từ một chuỗi -> thành 1 mảng
     đối vưới những method hỗ trợ cho mảng => cần phải xác đinh rõ là method dó nó có thay đổi array gốc của mình hay không ?
 
     method arr.slice(start , end) => tạo ra một mảng mới tình từ vị trí index = star => index < end => khong làm thay dổi
-    method arr.splice(start, deleteCount)
+    method arr.splice(start, deleteCount) -> vừa xoá vừa thêm
     => xoá bao nhieu phần tử từ vị trí start
     arr.splice(0, 3) => xoá 3 phần tử tính từ vị trí index = 0 trở đi
     => trở về một mảng bao gồm những phần tử đã xoá
     => nó làm thay đổi mảng gốc của mình
+
+method arr.splice(start , deleteCount, ... thêm mới)
+   đaauf ... được thể hiện là mình muốn thêm bao nhiêu kí tự cũng được 
+   ví dụ 
+   arr.cplice ( 0, 1 , 99 , 88) => xoá 1 phầng tử bắt đàu tại vị trí index = 0. sau khi xoá xoá xong tại vị trí dó them mới vào 2 phần tử 99, 88
+   [123, 456 ]. splice(0,1,99,88)
+   ->
+
 
 
 
