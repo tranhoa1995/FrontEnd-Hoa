@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+img{
+    width: 100%;
+}
+/* header */
+.header{
+    width: 1170px;
+    height: 500px;
+    background: #000044; 
+    display: block;
+}
+
+/* Brand */
+.brand{
+    text-align: center;
+    color: white;
+}
+.brand-name{
+    font-size: 20px;
+    text-transform: uppercase;
+    background: grey;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Zen Dots', cursive;
+}
+.brand-detail{
+        font-size: 14px;
+        color: rgba(red, green, blue, alpha);
+ }
+.header-button{
+    text-transform: uppercase;
+    
+}
+.header-button-left{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px; 
+    color: white;
+    font-size: 10px;
+    background-color: transparent;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.header-button-right{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px; 
+    color: black;
+    font-size: 10px;
+    background-color: white;
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+/* Brand end */
+
+/* Banner */
+.banner-img-left{
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.banner-img-center{
+    width: 40%;
+    float: left;
+}
+.banner-img-right{
+    width: 30%;
+    float: right;
+    position: relative;
+}
+.Container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.banner-left-item-a{
+    margin-top: 180px;
+    width: 90%;
+}
+.banner-left-item-b{
+    position: absolute;
+    width: 50%;
+    top: 27px;
+    left: 10px;
+}
+.banner-left-item-c{
+    position: absolute;
+    width: 70%;
+    top: -35px;
+    right: -20px;
+}
+.banner-right-img-a{
+    width: 70%;
+    margin-top: 180px;
+}
+.banner-right-img-b{
+    position: absolute;
+    top: 22px;
+    left: -14px;
+    width: 50%;
+}
+.banner-right-img-c{
+    position: absolute;
+    top: -35px;
+    right: 0;
+    width: 70%;
+}
+.banner-right-img-d{
+    position: absolute;
+    bottom: 100px;
+    right: 0; 
+    width: 30%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.heard{
+    max-width: 700px;
+    height: 100vh;
+    /* border: 1px solid red ; */
+    position: relative;
+    margin: auto;
+}
+.list-title{
+    font-size: 150px;
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    opacity: 0.1;
+    top: -20%;
+    left: 3%;
+    padding: 30px;
+    letter-spacing: 5px;
+}
+.list-nen{
+    font-size: 34px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 157px;
+}
+.color{
+    width: 66px;
+    height: -5px;
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-top: 16px;
+}
+p{
+    text-align: center;
+    margin-left: 15px;
+}
+.icon-block-item{
+    float: left; 
+    /* border: 1px solid; */
+    width: 50%;
+    /* margin: 15px; */
+    padding: 15px;
+    overflow: hidden;
+    
+}
+.icon-block{
+    float: left;
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 2px 3px 0px;
+
+}
+.icon-block-text{
+    float: left;
+    width: 70%;
+    background-color: #F8F8FF;
+    /* overflow: hidden; */
+    height: 110px;
+}
+.live{
+    width: 100%;
+}
+img{
+    width: 100%;
+    /* margin-top: 10px; */
+}
+h1{
+    font-size: 15px;
+    margin-left: 10px;
+}

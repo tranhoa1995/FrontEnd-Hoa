@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+img{
+    width: 100%;
+}
+/* header */
+.header{
+    width: 1170px;
+    height: 500px;
+    background: #000044; 
+    display: block;
+}
+
+/* Brand */
+.brand{
+    text-align: center;
+    color: white;
+}
+.brand-name{
+    font-size: 20px;
+    text-transform: uppercase;
+    background: grey;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Zen Dots', cursive;
+}
+.brand-detail{
+        font-size: 14px;
+        color: rgba(red, green, blue, alpha);
+ }
+.header-button{
+    text-transform: uppercase;
+    
+}
+.header-button-left{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px; 
+    color: white;
+    font-size: 10px;
+    background-color: transparent;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.header-button-right{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px; 
+    color: black;
+    font-size: 10px;
+    background-color: white;
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+/* Brand end */
+
+/* Banner */
+.banner-img-left{
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.banner-img-center{
+    width: 40%;
+    float: left;
+}
+.banner-img-right{
+    width: 30%;
+    float: right;
+    position: relative;
+}
+.Container{
+    width: auto;
+    margin: 0 auto;
+}
+.banner-left-item-a{
+    margin-top: 180px;
+    width: 90%;
+}
+.banner-left-item-b{
+    position: absolute;
+    width: 50%;
+    top: 27px;
+    left: 10px;
+}
+.banner-left-item-c{
+    position: absolute;
+    width: 70%;
+    top: -35px;
+    right: -20px;
+}
+.banner-right-img-a{
+    width: 70%;
+    margin-top: 180px;
+}
+.banner-right-img-b{
+    position: absolute;
+    top: 22px;
+    left: -14px;
+    width: 50%;
+}
+.banner-right-img-c{
+    position: absolute;
+    top: -35px;
+    right: 0;
+    width: 70%;
+}
+.banner-right-img-d{
+    position: absolute;
+    bottom: 100px;
+    right: 0; 
+    width: 30%;
+}
+
+
+/* Banner */
+
+
+
+/* header end */

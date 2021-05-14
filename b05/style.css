@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+  }
+  
+  .spacing {
+    height: 100px;
+  }
+  
+  .noithat {
+    height: 100px;
+    background-color: aqua;
+  }
+  
+  .box {
+    height: 250px;
+  }
+  .box-1 {
+    background-color: aqua;
+  }
+  .box-2 {
+    background-color: antiquewhite;
+  }
+  .box-3 {
+    background-color: lavender;
+  }
+  .box-4 {
+    background-color: lightcyan;
+  }
+  .box-5 {
+    background-color: lightskyblue;
+  }
+  .box-6 {
+    background-color: ivory;
+  }
+  /* .box-7 {
+    background-color: lightcoral;
+  } */
+  
+  
+  .product-image img {
+    width: 100%;
+  }

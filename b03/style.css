@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.block{
+  width: 150px;
+  height: 55px;
+  background-color: yellow;
+    text-align: center;
+   position: relative;
+   margin-top: 10px ;
+   left: 50px;
+
+}
+.line{
+    height: 10px;
+    background-color: tomato;
+    left: 1px;
+    right: 0;
+    bottom: -8px;
+    top: 50px ;
+    transition:  left 0.1s;
+    position: absolute;
+}
+.block:hover .line{
+    left: 200px;
+
+}
+.blockdemo{
+    font-size: 10px;
+    font-weight: 10px
+    ;  
+}
+.duoi{
+    top: 0px;
+} 
+.lineben{
+    right: 0px;
+}
+button{
+    margin-top: 10px;
+    font-size: 10px;
+    
+}
+.box2{
+    height: 60px;
+    background-color: rgb(76, 190, 41);
+    width: 10px;
+    bottom: 10px;
+    top: 00px ;
+    transition:  left 0.1s;
+    position: absolute;
+
+}
+.block:hover .box2{
+    top: 100px;
+}
+.phai{
+
+}   
