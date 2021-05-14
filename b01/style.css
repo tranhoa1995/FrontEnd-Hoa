@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #53d0e8;
+  min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+}
+.container {
+  width: 400px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ball {
+  margin-top: 80px;
+}
+.ball img {
+  display: block;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.btn-ask {
+  border: 0;
+  font-size: 18px;
+  color: #53d0e8;
+  padding: 12px 22px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.btn-ask:focus {
+  outline: none;
+}
+.brand{
+  margin-top: 100px;
+  text-align: center;
+}
