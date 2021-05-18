@@ -48,16 +48,65 @@
 }
 .title i {
     justify-content: space-between;
-    margin: 45px;
+    margin: 40px;
     font-family:  'Lato', sans-serif;
 }
 
 .heard {
     width: 100%; 
+    position: relative;
+   
 }
 .images-list {
     width: 100%;
+   
 }
 .images-list img{
     width: 100%;
 }
+.banner { 
+    position: absolute;
+    top: 75%;
+    right: 28%; 
+}
+.banner-title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    font-weight: 800;
+    color:#ffffff;
+}
+.banner-font {
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    padding: 5px;
+    letter-spacing: 3px;
+    font-family: 'Lato', sans-serif;
+}
+.header-button {
+    text-align: center;
+    padding: 5%;
+}
+.header-button-left {
+    padding: 20px 60px 20px 60px;
+    background: #c8ac48;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.header-button-right {
+    padding: 20px 60px 20px 60px;
+    background-color: Transparent;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    
+}
+
+
+
+  
+    
+
+
