@@ -24,8 +24,8 @@
 }
 .right {
     flex: 1;
-    display: flex;
-    justify-content: flex-end;
+        display: flex;
+        justify-content: flex-end;
     align-items: center;
 }
 .icon i {
@@ -139,32 +139,89 @@
     font-family: 'Lato', sans-serif;
     color: #78859e;
 }
-/*
-.Rectangle {
-    width: 380px;
-    height: 230px;
-    background-color:#304771 ;
+.heading {
+    width: 1400px;
+    height: 800px;
+   
+    margin: 6%;
+}.H-heading {
+    text-align: center;   
+}
+.H-heading i {
+    font-family:  'Libre Baskerville', serif;
+    font-size: 30px;
+    color: #304771;
+}
+.H-heading p {
+    font-family:  'Lato', sans-serif;
+    font-size: 14px;
+}
+.I-heading {
+    width: 600px;   
     
 }
-.Rectangle p {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 18px;
-    color: #ffffff;
+.Text i {
+    font-size: 22px;
+    color: #777c84;    
 }
-.Rectangle i {
+.Text p {
     font-size: 14px;
+    color: #777c84;
+    padding: 10px;  
+     line-height: 2;  
+}
+.Text i {
+    line-height: 2;
+}
+.button{
+    margin-top: 5%;
+}
+.button-left {
+    padding: 20px 60px 20px 60px;
+    background: #c8ac48;
+    color: white;
     font-family: 'Lato', sans-serif;
-    color: #78859e;
+    font-size: 14px;
 }
-   
-
-.Rectangle img {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+.button-right {
+    padding: 20px 60px 20px 60px;
+    background-color: Transparent;
+    color: #304771;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    border: 1px solid #304771;
 }
-*/
-
+.layout {
+      float: right;
+    margin-top: -30%;
+}
+.head {
+ height: 350px;
+ background-image: url("/b16/hinh/001_Home_Default-Recovered.jpg");
+}
+.head-title {
+    text-align: center;
+    font-size: 30px;
+    color:#ffffff;
+}
+.red {
+    font-size: 48px;
+}
+.head-title{
+    padding: 6%;
+}
+.head-title p {
+    font-size: 16px ;
+    color: #e9e6e3;
+}
+.Center {
+    padding: 20px 60px 20px 60px;
+    background: #304771;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
   
     
 
