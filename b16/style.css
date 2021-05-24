@@ -213,6 +213,9 @@
 .head-title p {
     font-size: 16px ;
     color: #e9e6e3;
+    padding-right: 27%;
+    padding-left: 28%;
+
 }
 .Center {
     padding: 20px 60px 20px 60px;
