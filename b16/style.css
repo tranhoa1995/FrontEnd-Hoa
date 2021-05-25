@@ -6,7 +6,7 @@
 .container {
     width: 100%;
     height: 800px;
-    border: 1px solid red;
+   
 
 }
 .brand{
@@ -139,6 +139,8 @@
     font-family: 'Lato', sans-serif;
     color: #78859e;
 }
+
+/* bai 2 */
 .heading {
     width: 1400px;
     height: 800px;
@@ -195,6 +197,8 @@
       float: right;
     margin-top: -30%;
 }
+
+/* bai 3 */
 .head {
  height: 350px;
  background-image: url("/b16/hinh/001_Home_Default-Recovered.jpg");
@@ -224,8 +228,50 @@
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     text-align: center;
+    margin: 2%;
 }
-  
+/* bai 4 */
+.heading-copy {
+    width: 1900px;
+    height: 800px;
+   
+}
+.equality {
+    text-align: center;
+    font-size: 30px;
+    font-family:   'Libre Baskerville', serif;
+    color: #304771;
+    padding: 3%;
+    font-weight: 900;
+}
+.big{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+}
+
+.icon-list img {
+    text-align: center;
+}
+.icon-list {
+    padding: 25px;
+    font-size: 20px;
+    font-family:'Libre Baskerville', serif;
+    width: 33.333%;
+    text-align: center;
+}
+.icon-list--select {
+    background-color: #304771;
+    color: white;
+}
+.more {
+    color: #c8ac49;
+}
+.icon-list i {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
     
 
 
