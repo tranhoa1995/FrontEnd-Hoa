@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            display: flex;
+            background-color: rgba(0, 0 , 0, 0.4);
+            padding: 0 32px;
+            
+        }
+        .nav-item{
+            padding: 12px 16px;
+            list-style-type: none;
+            transition: background-color 0.3s;
+            position: relative;
+
+        }
+        .nav-item:hover{
+            background-color: green;
+            cursor: pointer;
+        }
+        .nav-item:hover .sub-navbar{
+            opacity: 0;
+            top: 100%;
+        }
+        .sub-navbar{
+            position: absolute;
+            background-color: white;
+            box-shadow: 0 0 3px #000;
+            width: 100px;
+            top: 0;
+            opacity: 0;
+            transition: top 0.3s, opacity 0.3s;
+        }
+        .sub-navbar::before{
+            content: "";  /* content chứ nội dung của lớp giả. có thể ko có nhưng thấy đa số đều có thêm khi dùng lớp giả */
+            position: absolute;
+            top: -16px;
+            left: 8px;
+            border-top: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 8px solid red;
+            border-left: 8px solid transparent;
+        }
+        .class1,
+        .class2,
+        .class3{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li class="nav-item">
+            Menu 1
+            <ul class="sub-navbar">
+                <li>Menu sub 1</li>
+                <li>Menu sub 2</li>
+                <li>Menu sub 3</li>
+            </ul>
+        </li>
+        <li class="nav-item">Menu 2
+            <ul class="sub-navbar">
+                <li>Menu sub 1</li>
+                <li>Menu sub 2</li>
+                <li>Menu sub 3</li>
+            </ul>
+        </li>
+        <li class="nav-item">Menu 3
+            <ul class="sub-navbar">
+                <li>Menu sub 1</li>
+                <li>Menu sub 2</li>
+                <li>Menu sub 3</li>
+            </ul>
+        </li>
+        <li class="nav-item">Menu 4
+            <ul class="sub-navbar">
+                <li>Menu sub 1</li>
+                <li>Menu sub 2</li>
+                <li>Menu sub 3</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="class1">
+        <div class="class2">
+            <div class="class3"></div>
+        </div>
+    </div>
+</body>
+</html>

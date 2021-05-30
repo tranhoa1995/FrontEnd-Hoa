@@ -159,7 +159,7 @@
     font-size: 14px;
 }
 .I-heading {
-    width: 600px;   
+    width: 50%;   
     
 }
 .Text i {
@@ -200,9 +200,12 @@
 
 /* bai 3 */
 .head {
+width: 100%;
  height: 350px;
  background-image: url("/b16/hinh/001_Home_Default-Recovered.jpg");
+
 }
+
 .head-title {
     text-align: center;
     font-size: 30px;
@@ -213,6 +216,7 @@
 }
 .head-title{
     padding: 6%;
+    background-color: rgba(0,0,0,0.5);
 }
 .head-title p {
     font-size: 16px ;
@@ -243,6 +247,7 @@
     color: #304771;
     padding: 3%;
     font-weight: 900;
+    background: white;
 }
 .big{
     width: 70%;
@@ -272,6 +277,92 @@
     font-size: 14px;
     font-family: 'Lato', sans-serif;
 }
+/* bai 5 */
+.hading-H {
+    width: 1900px;
+    height: 200px;
+    border: 1px solid red;
+}
+ .img-H{
+        width: 1900px;
+        height: 355px;      
+    }
+    .overflow{
+        width: 100%;
+        padding: 0 12%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+.Title-H {
+    display: flex;
+    float: left;
+    /* padding: 0 15%; */
+}
+.Title-H  i{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #d0d1da;
+}
+.Title-H p {
+    font-size: 48px;
     
-
-
+    font-weight: 800S;
+}
+/* BAI 6  */
+ .heading-A {
+     width: 100%;
+     height: 800px;
+ }
+ .Title-A {
+     font-size: 30px;
+     font-family:'Libre Baskerville', serif;
+     text-align: center;
+     color: #304771;
+    
+ }
+ .banner-A {
+   width: 100%;
+   height: 100%;
+    margin-top: 3%;
+  display: flex;
+  padding: 0 12%;
+ }
+ .banner-img-left{  
+   padding: 20px 60px 20px 60px;
+   width: 33.333%;   
+   color: #cbcdcf;
+   text-align: center;
+ }
+ .banner-img-center{
+     width: 33.333% ;
+     padding: 20px 60px 20px 60px;
+     font-size: 14px;
+     color: #cbcdcf;
+     text-align: center;
+}
+.banner-img-right{
+    width: 33.333%;
+    padding: 20px 60px 20px 60px;
+    color: #cbcdcf;
+    text-align: center;
+}
+.Name {
+    padding: 20px 60px 20px 80px;
+    background: #c8ac49;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;    
+}
+.View {
+    padding: 2%; 
+}   
+.icon-name {
+    text-align: center;
+}
+.icon-Name i{
+    margin: 12px 12px;
+}

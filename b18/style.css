@@ -1,0 +1,18 @@
+.heading {
+     width: 1900px;
+     height: 800px;
+     border: 1px solid red;
+     display: flex;
+}
+.big {
+    position: relative;
+}
+.big-01 {
+    position: absolute;
+}
+.big-02 {
+    position: absolute;
+}
+.big-03 {
+    position: relative;
+}
