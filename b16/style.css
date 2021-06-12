@@ -1,368 +1,641 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .container {
-    width: 100%;
-    height: 800px;
-   
-
+  width: 100%;
+  height: 800px;
 }
-.brand{
-    border: 1px solid #ededed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
+.brand {
+  border: 1px solid #ededed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.envelopes  {
-    font-size: 15px;
-    font-family:  'Lato', sans-serif;
-    color: #a7a7a7;
-    padding: 5px;   
+.envelopes {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: #a7a7a7;
+  padding: 5px;
 }
 .right {
-    flex: 1;
-        display: flex;
-        justify-content: flex-end;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .icon i {
-    margin:  10px;
+  margin: 10px;
 }
 .brand-name {
-    color: white;
-    background-color: #304771;
-    font-size: 20px;
-    padding: 20px;
-    margin-right: 20%;
+  color: white;
+  background-color: #304771;
+  font-size: 20px;
+  padding: 20px;
+  margin-right: 20%;
 }
 .list-name {
-    display: flex;
+  display: flex;
 }
 .list-title {
   font-size: 30px;
   display: flex;
-  padding: 15px;   
+  padding: 15px;
 }
 .title i {
-    justify-content: space-between;
-    margin: 40px;
-    font-family:  'Lato', sans-serif;
+  justify-content: space-between;
+  margin: 40px;
+  font-family: "Lato", sans-serif;
 }
 
 .heard {
-    width: 100%; 
-    position: relative;
-   
+  width: 100%;
+  position: relative;
 }
 .images-list {
-    width: 100%;
-   
+  width: 100%;
 }
-.images-list img{
-    width: 100%;
+.images-list img {
+  width: 100%;
 }
-.banner { 
-    position: absolute;
-    top: 75%;
-    right: 28%; 
+.banner {
+  position: absolute;
+  top: 75%;
+  right: 28%;
 }
 .banner-title {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 40px;
-    font-weight: 800;
-    color:#ffffff;
+  font-family: "Libre Baskerville", serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffffff;
 }
 .banner-font {
-    font-size: 18px;
-    text-align: center;
-    color: #ffffff;
-    padding: 5px;
-    letter-spacing: 3px;
-    font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 5px;
+  letter-spacing: 3px;
+  font-family: "Lato", sans-serif;
 }
 .header-button {
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 .header-button-left {
-    padding: 20px 60px 20px 60px;
-    background: #c8ac48;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
+  padding: 20px 60px 20px 60px;
+  background: #c8ac48;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
 }
 .header-button-right {
-    padding: 20px 60px 20px 60px;
-    background-color: Transparent;
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    border: 1px solid #ffffff;
+  padding: 20px 60px 20px 60px;
+  background-color: Transparent;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  border: 1px solid #ffffff;
 }
 
 .rect {
-    position: absolute;
-    display: flex; /*Flex lap day het khoan trong*/
-    width: 1170px;
-    height: 230px;
-    align-items: stretch;
-    top: 140%;
-    left: 50%;
-    transform: translateX(-50%);
+  position: absolute;
+  display: flex; /*Flex lap day het khoan trong*/
+  width: 1170px;
+  height: 230px;
+  align-items: stretch;
+  top: 140%;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.Rectangle{
-   display: flex;
-   align-items: center;
-   text-align: center;
-    margin: 0 2px;
-    
+.Rectangle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 2px;
 }
-.rect .Rectangle:nth-child(1){
-    background-color: #304771
+.rect .Rectangle:nth-child(1) {
+  background-color: #304771;
 }
-.rect .Rectangle:nth-child(2){
-    background-color: #283c61
+.rect .Rectangle:nth-child(2) {
+  background-color: #283c61;
 }
-.rect .Rectangle:nth-child(3){
-    background-color: #1e3051
+.rect .Rectangle:nth-child(3) {
+  background-color: #1e3051;
 }
 .Rectangle p {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 18px;
-    color: #ffffff;
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  color: #ffffff;
 }
 .Rectangle i {
-    font-size: 14px;
-    font-family: 'Lato', sans-serif;
-    color: #78859e;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  color: #78859e;
 }
 
 /* bai 2 */
 .heading {
-    width: 1400px;
-    height: 800px;
-   
-    margin: 6%;
-}.H-heading {
-    text-align: center;   
+  width: 1400px;
+  height: 800px;
+
+  margin: 6%;
+}
+.H-heading {
+  text-align: center;
 }
 .H-heading i {
-    font-family:  'Libre Baskerville', serif;
-    font-size: 30px;
-    color: #304771;
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  color: #304771;
 }
 .H-heading p {
-    font-family:  'Lato', sans-serif;
-    font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
 }
 .I-heading {
-    width: 50%;   
-    
+  width: 50%;
 }
 .Text i {
-    font-size: 22px;
-    color: #777c84;    
+  font-size: 22px;
+  color: #777c84;
 }
 .Text p {
-    font-size: 14px;
-    color: #777c84;
-    padding: 10px;  
-     line-height: 2;  
+  font-size: 14px;
+  color: #777c84;
+  padding: 10px;
+  line-height: 2;
 }
 .Text i {
-    line-height: 2;
+  line-height: 2;
 }
-.button{
-    margin-top: 5%;
+.button {
+  margin-top: 5%;
 }
 .button-left {
-    padding: 20px 60px 20px 60px;
-    background: #c8ac48;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
+  padding: 20px 60px 20px 60px;
+  background: #c8ac48;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
 }
 .button-right {
-    padding: 20px 60px 20px 60px;
-    background-color: Transparent;
-    color: #304771;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    border: 1px solid #304771;
+  padding: 20px 60px 20px 60px;
+  background-color: Transparent;
+  color: #304771;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  border: 1px solid #304771;
 }
 .layout {
-      float: right;
-    margin-top: -30%;
+  float: right;
+  margin-top: -30%;
 }
 
 /* bai 3 */
 .head {
-width: 100%;
- height: 350px;
- background-image: url("/b16/hinh/001_Home_Default-Recovered.jpg");
-
+  width: 100%;
+  height: 350px;
+  background-image: url("/b16/hinh/001_Home_Default-Recovered.jpg");
 }
 
 .head-title {
-    text-align: center;
-    font-size: 30px;
-    color:#ffffff;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
 }
 .red {
-    font-size: 48px;
+  font-size: 48px;
 }
-.head-title{
-    padding: 6%;
-    background-color: rgba(0,0,0,0.5);
+.head-title {
+  padding: 6%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .head-title p {
-    font-size: 16px ;
-    color: #e9e6e3;
-    padding-right: 27%;
-    padding-left: 28%;
-
+  font-size: 16px;
+  color: #e9e6e3;
+  padding-right: 27%;
+  padding-left: 28%;
 }
 .Center {
-    padding: 20px 60px 20px 60px;
-    background: #304771;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    text-align: center;
-    margin: 2%;
+  padding: 20px 60px 20px 60px;
+  background: #304771;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin: 2%;
 }
 /* bai 4 */
 .heading-copy {
-    width: 1900px;
-    height: 800px;
-   
+  width: 1900px;
+  height: 800px;
 }
 .equality {
-    text-align: center;
-    font-size: 30px;
-    font-family:   'Libre Baskerville', serif;
-    color: #304771;
-    padding: 3%;
-    font-weight: 900;
-    background: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Libre Baskerville", serif;
+  color: #304771;
+  padding: 3%;
+  font-weight: 900;
+  background: white;
 }
-.big{
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 15%;
+.big {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15%;
 }
 
 .icon-list img {
-    text-align: center;
+  text-align: center;
 }
 .icon-list {
-    padding: 25px;
-    font-size: 20px;
-    font-family:'Libre Baskerville', serif;
-    width: 33.333%;
-    text-align: center;
+  padding: 25px;
+  font-size: 20px;
+  font-family: "Libre Baskerville", serif;
+  width: 33.333%;
+  text-align: center;
 }
 .icon-list--select {
-    background-color: #304771;
-    color: white;
+  background-color: #304771;
+  color: white;
 }
 .more {
-    color: #c8ac49;
+  color: #c8ac49;
 }
 .icon-list i {
-    font-size: 14px;
-    font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
 }
 /* bai 5 */
 .hading-H {
-    width: 1900px;
-    height: 200px;
-    border: 1px solid red;
+  width: 1900px;
+  height: 200px;
+  border: 1px solid red;
 }
- .img-H{
-        width: 1900px;
-        height: 355px;      
-    }
-    .overflow{
-        width: 100%;
-        padding: 0 12%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.8);
-        color: white;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-    }
+.img-H {
+  width: 1900px;
+  height: 355px;
+}
+.overflow {
+  width: 100%;
+  padding: 0 12%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 .Title-H {
-    display: flex;
-    float: left;
-    /* padding: 0 15%; */
+  display: flex;
+  float: left;
 }
-.Title-H  i{
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
-    color: #d0d1da;
+.Title-H i {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: #d0d1da;
 }
 .Title-H p {
-    font-size: 48px;
-    
-    font-weight: 800S;
+  font-size: 48px;
+
+  font-weight: 800s;
 }
 /* BAI 6  */
- .heading-A {
-     width: 100%;
-     height: 800px;
- }
- .Title-A {
-     font-size: 30px;
-     font-family:'Libre Baskerville', serif;
-     text-align: center;
-     color: #304771;
-    
- }
- .banner-A {
-   width: 100%;
-   height: 100%;
-    margin-top: 3%;
+.heading-A {
+  width: 100%;
+}
+.Title-A {
+  font-size: 30px;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  color: #304771;
+}
+.banner-A {
+  width: 100%;
+  height: 100%;
+  margin-top: 3%;
   display: flex;
   padding: 0 12%;
- }
- .banner-img-left{  
-   padding: 20px 60px 20px 60px;
-   width: 33.333%;   
-   color: #cbcdcf;
-   text-align: center;
- }
- .banner-img-center{
-     width: 33.333% ;
-     padding: 20px 60px 20px 60px;
-     font-size: 14px;
-     color: #cbcdcf;
-     text-align: center;
 }
-.banner-img-right{
-    width: 33.333%;
-    padding: 20px 60px 20px 60px;
-    color: #cbcdcf;
-    text-align: center;
+.banner-img-left {
+  padding: 20px 60px 20px 0px;
+  width: 33.333%;
+  color: #cbcdcf;
+  text-align: center;
+}
+.banner-img-center {
+  width: 33.333%;
+  padding: 20px 60px 20px 60px;
+  font-size: 14px;
+  color: #cbcdcf;
+  text-align: center;
+}
+.banner-img-right {
+  width: 33.333%;
+  padding: 20px 60px 20px 0px;
+  color: #cbcdcf;
+  text-align: center;
 }
 .Name {
-    padding: 20px 60px 20px 80px;
-    background: #c8ac49;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;    
+  padding: 20px 60px 20px 80px;
+  background: #c8ac49;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
 }
 .View {
-    padding: 2%; 
-}   
-.icon-name {
-    text-align: center;
+  padding: 2%;
 }
-.icon-Name i{
-    margin: 12px 12px;
+.icon-name {
+  text-align: center;
+}
+.icon-Name i {
+  margin: 12px 12px;
+}
+/* bai 7 */
+.contai {
+  width: 1900px;
+  height: 400px;
+  border: 1px solid red;
+}
+.img-A {
+  width: 1900px;
+  height: 400px;
+  position: relative;
+}
+.overcolor {
+  background-color: rgb(30 46 75 / 90%);
+  width: 100%;
+  padding: 0 12%;
+  height: 100%;
+}
+.img-left {
+  display: grid;
+  padding: 10%;
+  justify-content: space-between;
+}
+img {
+  padding: 5px;
+}
+.container-AB {
+  width: 1000px;
+  border: 1px solid #83899a;
+  height: 230px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.P-AB {
+  width: 830px;
+  height: 64px;
+  margin-top: 7%;
+  text-align: center;
+  margin-left: 10%;
+  color: #d9d9e2;
+}
+.img-center {
+  text-align: center;
+  margin-top: -17%;
+  padding: 5px;
+}
+.P-A {
+  margin-left: 70%;
+  margin-top: 10%;
+}
+/* bai 8 */
+.Heading-T {
+  width: 100%;
+  height: 500px;
+}
+.Logo {
+  padding: 0 12%;
+  margin: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.class1 {
+  opacity: 0.1;
+}
+.class2 {
+  opacity: 1;
+}
+.head-K {
+  text-align: center;
+  padding: 10%;
+}
+.head-K {
+  font-size: 30px;
+  color: #7c879e;
+  font-family: "Libre Baskerville", serif;
+}
+
+.Head-AB {
+  width: 1900px;
+  height: 1000px;
+  margin-top: -20%;
+}
+
+.heading-AB {
+  width: 100%;
+}
+.Left {
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+}
+.Left p {
+  font-size: 24px;
+  font-family: "Libre Baskerville", serif;
+  padding: 10px;
+}
+.Left i {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+}
+.left__image {
+  position: relative;
+  margin-left: 20%;
+}
+.left__image-date {
+  position: absolute;
+  top: 5;
+  left: 5;
+}
+.left__image-day {
+  width: 87px;
+  height: 60px;
+  background-color: #304771;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  line-height: 60px;
+}
+.left__image-month {
+  width: 87px;
+  height: 40px;
+  background-color: #bda50b;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.font p {
+  line-height: 1.5;
+}
+
+.right-ab {
+  width: 35%;
+  float: left;
+}
+.right-image {
+  display: flex;
+  justify-self: center;
+  padding: 4%;
+}
+.right-image-date {
+}
+.right-day {
+  width: 87px;
+  height: 60px;
+  background-color: #304771;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  line-height: 60px;
+}
+.right-month {
+  width: 87px;
+  height: 40px;
+  background-color: #bda50b;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.font-icon p {
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Libre Baskerville", serif;
+  color: black;
+  font-weight: 900;
+}
+.font-icon i {
+  padding: 10px;
+}
+
+/* BAI 10 */
+.head-AZ {
+  width: 1850px;
+  height: 700px;
+  position: relative;
+}
+.Left-AZ {
+  width: 100%;
+  position: absolute;
+  margin-top: -10%;
+}
+
+.AZ {
+  font-size: 30px;
+  color: #304771;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+.right-AZ {
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+.right-A {
+  display: flex;
+  margin: 5px -15px;
+  justify-content: space-between;
+}
+
+.item1 {
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+}
+.item1 input {
+  width: 100%;
+  line-height: 20px;
+  color: #9da3ad;
+}
+.button-right {
+  padding: 20px 60px 20px 60px;
+  background-color: #c8ac49;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin-top: 3%;
+  margin-left: 35%;
+}
+/* bai 11 */
+.heard-HA {
+  width: 1900px;
+  height: 300px;
+  background: #0a152a;
+  border: 1px solid #2c3340;
+}
+.Logo-HA {
+  text-align: center;
+  color: #999fab;
+  padding: 50px;
+}
+.Logo-HA p {
+  padding-left: 350px;
+  padding-right: 350px;
+}
+.icon-AH {
+  text-align: center;
+  color: #999fab;
+}
+.icon-AH i {
+  margin: 0 15px;
+}
+.Heard-IA {
+  width: 1900px;
+  height: 360px;
+  background: #0a152a;
+}
+.brand-IA {
+  width: 100%;
+  display: flex;
+}
+.title-IA {
+  display: flex;
+  color: #fff;
+  padding: 50px;
+}
+.title-IA p {
+  margin: 0 135px;
+  font-size: 18px;
+  font-family: "Libre Baskerville", serif;
+}
+.title-left {
+  width: 25%;
+}
+.title-AI {
+  padding-left: 160px;
+}
+.title-AI i {
+  display: flex;
+  color: #999fab;
+  padding: 10px;
+  margin: 0 10px;
+}
+.title-H {
+  width: 25%;
+  color: #fff;
+}
+.title-1 {
+  width: 25%;
+}
+.title-2 {
+  width: 25%;
+}
+.title- {
+  width: 25%;
 }
