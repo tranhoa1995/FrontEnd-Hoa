@@ -625,6 +625,7 @@ img {
   color: #999fab;
   padding: 10px;
   margin: 0 10px;
+  font-family: "Lato", sans-serif;
 }
 .title-H {
   width: 25%;
@@ -638,4 +639,22 @@ img {
 }
 .title- {
   width: 25%;
+}
+.title-AI p {
+  color: #fff;
+  margin-left: 7%;
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+}
+/* bai 12 */
+.Heard-H {
+  width: 1900px;
+  height: 60px;
+  background: #050e1f;
+}
+.heard-A {
+  color: #424854;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
 }
