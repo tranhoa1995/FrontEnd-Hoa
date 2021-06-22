@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-dice.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div id="player1" class="player-panel ">
+            <!--winner-->
+            <div class="player-name">Player 1</div>
+
+            <div id="player1Point" class="player-score">43</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Total</div>
+                <div id="player1Total" class="player-current-score">11</div>
+            </div>
+        </div>
+
+        <div id="player2" class="player-panel active">
+            <div class="player-name">Player 2</div>
+            <div id="player2Point" class="player-score">72</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Total</div>
+                <div id="player2Total" class="player-current-score">0</div>
+            </div>
+        </div>
+
+        <!-- <button onclick="document.getElementById('demo').innerHTML = getRndInteger(30,45)">Roll dice</button>
+        <button onclick="document.getElementById('demo').innerHTML = getRndInteger(30,45)">Hold</button> -->
+
+
+        <button id="btnNewGame" class="control btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+        <button id="btnRoll" class="control btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+        <button id="btnHold" class="control btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+        <input id="finalScore" type="number" placeholder="Final score" class="final-score">
+
+        <div id="dice-1" class="dice">
+            <div class="spinner dice-3">
+                <div class="face1">1</div>
+                <div class="face2">2</div>
+                <div class="face3">3</div>
+                <div class="face4">4</div>
+                <div class="face5">5</div>
+                <div class="face6">6</div>
+            </div>
+        </div>
+        <div id="dice-2" class="dice">
+            <div class="spinner dice-6">
+                <div class="face1">1</div>
+                <div class="face2">2</div>
+                <div class="face3">3</div>
+                <div class="face4">4</div>
+                <div class="face5">5</div>
+                <div class="face6">6</div>
+            </div>
+        </div>
+    </div>
+    <!-- Nhúng script -->
+    <script src="/b21/main.js"></script>
+</body>
+
+</html>
