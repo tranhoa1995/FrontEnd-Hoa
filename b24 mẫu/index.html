@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- TITLE : START -->
+        <div class="page-header">
+            <h1>Project 01 - ToDo List <small>Js DOM</small></h1>
+            <hr class="my-4">
+        </div>
+        <!-- TITLE : END -->
+
+
+        <div class="row">
+            <!-- CONTROL (SEARCH + SORT + ADD) : START -->
+            <div class="col-12 col-lg-6">
+                <div class="row">
+                    <!-- SORT : START -->
+                    <div class="col-12">
+                        <div class="form-group">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sort by
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Name ASC</a>
+                                    <a class="dropdown-item" href="#">Name DESC</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Level ASC</a>
+                                    <a class="dropdown-item" href="#">Level DESC</a>
+                                </div>
+                                <span class="badge badge-success badge-medium">NAME - DESC</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SORT : END -->
+
+                    <!-- SEARCH : START -->
+                    <div class="col-12">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for..." />
+                            <span class="input-group-append">
+                                <button class="btn btn-info" type="button">Clear!</button>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- SEARCH : END -->
+                </div>
+            </div>
+            <!-- CONTROL (SEARCH + SORT + ADD) : END -->
+
+            <!-- FORM : START -->
+            <div class="col-12 col-lg-6">
+                <!-- ADD : START -->
+                <div class="form-group add-task">
+                    <button id="btnAddTask" type="button" class="btn btn-info btn-block">Add Task</button>
+                </div>
+                <!-- ADD : END -->
+                <!-- Khi mới vào trang mặc định sẽ có class hidden -> Dùng CSS để display: none; -->
+                <form id="frmAddTask" action="" method="POST" class="form-inline justify-content-between hidden">
+                    <div class="form-group">
+                        <label class="sr-only" for="">label</label>
+                        <input id="txtInput" type="text" class="form-control" placeholder="Task Name" />
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="">label</label>
+                        <select id="slSelect" class="form-control" required="required">
+                            <option value="0" selected>Small</option>
+                            <option value="1">Medium</option>
+                            <option value="2">High</option>
+                        </select>
+                    </div>
+
+                    <button type="button" class="btn btn-primary" id="btnSubmit">Submit</button>
+                    <button type="button" class="btn btn-secondary">Cancel</button>
+                </form>
+            </div>
+            <!-- FORM : END -->
+        </div>
+
+        <!-- LIST : START -->
+
+        <div class="panel panel-success">
+            <div class="panel-heading">List Task</div>
+            <table class="table table-hover ">
+                <thead>
+                    <tr>
+                        <th style="width: 10%" class="text-center">#</th>
+                        <th>Task</th>
+                        <th style="width: 20%" class="text-center">Level</th>
+                        <th style="width: 160px">Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <!--Thay thế bởi index +1 (vị trí của phần tử trong mảng + 1) *Lưu ý phần tử bắt đầu là 0-->
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ea c</td>
+                        <!--Thay thế bởi taskName-->
+                        <td class="text-center"><span class="badge badge-danger">High</span></td>
+                        <!--Thay thế bằng level thông qua phép so sánh if == 0, == 1, == 2. Chọn kết quả phù hợp small/medium/high-->
+                        <td>
+                            <button type="button" class="btn btn-warning">Edit</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ea c</td>
+                        <td class="text-center"><span class="badge badge-secondary">Small</span></td>
+                        <td>
+                            <button type="button" class="btn btn-warning">Edit</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">3</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ea c</td>
+                        <td class="text-center"><span class="badge badge-info">Medium</span></td>
+                        <td>
+                            <button type="button" class="btn btn-warning">Edit</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+
+    <!--
+		This HTML file is a template.
+		If you open it directly in the browser, you will see an empty page.
+
+		You can add webfonts, meta tags, or analytics to this file.
+		The build step will place the bundled scripts into the <body> tag.
+
+		To begin the development, run `npm start` or `yarn start`.
+		To create a production bundle, use `npm run build` or `yarn build`.
+	-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--Jquery phải được gọi trước bootstrap-->
+    <script src="jquery.min.js"></script>
+    <script src="popper.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <!--Nhúng js vào cuối-->
+    <script src="/b24 mẫu/script.js"></script>
+</body>
+
+</html>

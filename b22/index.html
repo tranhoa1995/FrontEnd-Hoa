@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="heard">
+        <div class="banner">
+            <h1>Project 01 - To Do List <small>ReactJs</small>
+            </h1>
+            <div class="banner-box">
+                <div class="box-left">
+                    <button class="left">Sort by <i class="fas fa-caret-down"></i></button>
+                    <button class="right">NAME- ASC </button>
+
+
+                    <button class="right-box" onclick="addRow()">Add Task </button>
+                </div>
+            </div>
+        </div>
+        <div class="banner-box">
+            <input type="text" placeholder="Search for ..." style="color:#9da3ad ;">
+            <button class="banner-left">Clear! </button>
+        </div>
+        <div class="banner-icon">
+            <table id="table" class="icon">
+                <thead>
+                    <tr>
+                        <th colspan="4">Lisk task</th>
+                    </tr>
+                    <tr>
+                        <td>#</td>
+                        <td>Task</td>
+                        <td>Level</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="4" style="border: 1px solid #ccc;">List Empty</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <script>
+        var tasks = [
+            {
+                taskName: "abc",
+                leve: "high"
+            },
+            {
+                taskName: "abc",
+                leve: "high"
+            },
+            {
+                taskName: "abc",
+                leve: "high"
+            }
+        ]
+
+        function addRow() {
+            var tbody = document.querySelector('#table tbody');
+            console.log(task);
+            var result = tasks.map((task) => {
+                `<td>${tasks.taskName}</td><td>${tasks.leve}</td>`
+            });
+            console.log(result);
+            // tbody.innerHTML = `<tr>
+            //     <td>1</td>
+            //     <td>2</td>
+            //     <td>3</td>
+            //     <td>4</td>
+            //     </tr>`
+        }
+    </script>
+    <script src="/b22/index.html"></script>
+</body>
+
+
+</html>
